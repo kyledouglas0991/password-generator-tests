@@ -1,6 +1,6 @@
 PLAYWRIGHT DEMO
 
-Playwright install -> npm init playwright@latest
+Playwright install: "npm init playwright@latest"
 
 Add axe-core as a project dependency for ADA testing: "npm install @axe-core/playwright"
 

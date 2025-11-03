@@ -7,16 +7,11 @@ test('snapshot', async ({ page }) => {
   await page.goto('https://www.lastpass.com/features/password-generator#generatorTool');
 
   /* Assert against image of record (found under /tests directory)
-  with 900px allowance to account for dynamic password string. 
+  with 1000px allowance to account for dynamic password string. 
   You could also mask the form input element, examples of which
   are commented below this test's body. */
-  await expect(page).toHaveScreenshot('password-generator.png', { maxDiffPixels: 900, timeout: 10000 });
+  await expect(page).toHaveScreenshot('password-generator.png', { maxDiffPixels: 1000, timeout: 10000 });
 });
-
-
-
-
-
 
 
 

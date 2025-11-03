@@ -12,7 +12,7 @@ import { test, expect } from '@playwright/test';
 // and install with:   npm install @axe-core/playwright
 import AxeBuilder from '@axe-core/playwright';
 
-test.describe('accessibility', () => { 
+//test.describe('accessibility', () => { 
   test('expect 0 accessibility violations', async ({ page }) => {
     await page.goto('https://www.lastpass.com/features/password-generator#generatorTool'); 
 
@@ -20,4 +20,4 @@ test.describe('accessibility', () => {
 
     expect(scanResults.violations).toEqual([]);
   });
-});
+//});

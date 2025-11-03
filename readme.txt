@@ -2,7 +2,7 @@ PLAYWRIGHT DEMO
 
 Playwright install -> npm init playwright@latest
 
-Add the axe-core library to config: "npm install @axe-core/playwright"
+Add axe-core as a project dependency for ADA testing: "npm install @axe-core/playwright"
 
 Test headlessly: npx playwrite test
 Test headed:     npx playwrite test --ui

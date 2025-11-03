@@ -17,15 +17,6 @@ test('snapshot', async ({ page }) => {
 
 
 
-
-
-
-
-
-
-
-
-
 /* Take snapshot of password generator layout
   while masking dynamic string field */
   /*
